@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { HiLocationMarker } from 'react-icons/hi';
 import { personalInfo } from '../data';
 import profile from '../assets/profile.jpg';
@@ -126,13 +126,6 @@ const Hero = () => {
             >
               <FaEnvelope size={14} />
               Contact Me
-            </a>
-            <a
-              href="#"
-              className="btn-secondary flex items-center gap-2"
-            >
-              <FaDownload size={14} />
-              Download CV
             </a>
           </motion.div>
 

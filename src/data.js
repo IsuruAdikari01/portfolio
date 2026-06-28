@@ -29,15 +29,6 @@ export const education = [
     icon: "📚",
     current: false,
   },
-  {
-    id: 3,
-    institution: "Ordinary Level",
-    degree: "GCE O/L Examination",
-    period: "2019",
-    details: "Results: 1B, 7C, 1S",
-    icon: "🏫",
-    current: false,
-  },
 ];
 
 export const skillCategories = [
